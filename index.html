@@ -86,6 +86,15 @@ stroke-linejoin="round" class="feather feather-home">
 <polyline points="9 22 9 12 15 12 15 22"></polyline>
 </svg>
         </a>
+      <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var currentUrl = window.location.href;
+        var logo = document.getElementById("logo");
+        if (currentUrl !== "https://thieu.io/") {
+            logo.setAttribute("href", "/");
+        }
+    });
+</script>
         <input type="checkbox" id="menu-trigger" class="menu-trigger" />
         <label for="menu-trigger">
             <span class="menu-icon">
