@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on My New Hugo Site</title>
-    <link>https://thieu.io/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Dec 2024 22:03:35 +0700</lastBuildDate><atom:link href="https://thieu.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Dec 2024 22:03:35 +0700</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Các thư viện và Framework của JavaScript</title>
-      <link>https://thieu.io/posts/thuvien_js/</link>
+      <link>http://localhost:1313/posts/thuvien_js/</link>
       <pubDate>Sat, 28 Dec 2024 22:03:35 +0700</pubDate>
       
-      <guid>https://thieu.io/posts/thuvien_js/</guid>
+      <guid>http://localhost:1313/posts/thuvien_js/</guid>
       
       <description>&lt;h1 id=&#34;thư-viện-và-framework&#34;&gt;Thư viện và Framework&lt;/h1&gt;
 &lt;p&gt;Trong phát triển phần mềm, đặc biệt là trong phát triển web, &lt;strong&gt;thư viện&lt;/strong&gt; (library) và &lt;strong&gt;framework&lt;/strong&gt; (khung) là hai khái niệm quan trọng, nhưng chúng có những điểm khác biệt rõ ràng. Dưới đây là sự giải thích chi tiết về cả hai:&lt;/p&gt;
@@ -78,10 +78,10 @@
     
     <item>
       <title>Các thư viện và framework trong Java</title>
-      <link>https://thieu.io/posts/thuvien_java/</link>
+      <link>http://localhost:1313/posts/thuvien_java/</link>
       <pubDate>Sat, 28 Dec 2024 22:03:35 +0700</pubDate>
       
-      <guid>https://thieu.io/posts/thuvien_java/</guid>
+      <guid>http://localhost:1313/posts/thuvien_java/</guid>
       
       <description>&lt;h1 id=&#34;các-thư-viện-và-framework-trong-java&#34;&gt;Các thư viện và framework trong Java&lt;/h1&gt;
 &lt;p&gt;Java có một hệ sinh thái phong phú với nhiều thư viện và framework hỗ trợ cho việc phát triển ứng dụng. Dưới đây là một số thư viện và framework phổ biến trong Java:&lt;/p&gt;
@@ -133,10 +133,10 @@
     
     <item>
       <title>DOM</title>
-      <link>https://thieu.io/posts/dom/</link>
+      <link>http://localhost:1313/posts/dom/</link>
       <pubDate>Sat, 28 Dec 2024 22:03:35 +0700</pubDate>
       
-      <guid>https://thieu.io/posts/dom/</guid>
+      <guid>http://localhost:1313/posts/dom/</guid>
       
       <description>&lt;h1 id=&#34;giới-thiệu-về-dom&#34;&gt;Giới thiệu về DOM&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;DOM (Document Object Model)&lt;/strong&gt; là một giao diện lập trình ứng dụng (API) cho tài liệu HTML và XML. Nó cung cấp một cách để cấu trúc tài liệu thành một cây đối tượng, cho phép lập trình viên truy cập và thao tác với nội dung, cấu trúc và kiểu dáng của tài liệu.&lt;/p&gt;
@@ -158,10 +158,10 @@
     
     <item>
       <title>Giới thiệu về AJAX, jQuery và JSON</title>
-      <link>https://thieu.io/posts/ajax_jquery_json/</link>
+      <link>http://localhost:1313/posts/ajax_jquery_json/</link>
       <pubDate>Sat, 28 Dec 2024 22:03:35 +0700</pubDate>
       
-      <guid>https://thieu.io/posts/ajax_jquery_json/</guid>
+      <guid>http://localhost:1313/posts/ajax_jquery_json/</guid>
       
       <description>&lt;h1 id=&#34;giới-thiệu-về-ajax-jquery-và-json&#34;&gt;Giới thiệu về AJAX, jQuery và JSON&lt;/h1&gt;
 &lt;h2 id=&#34;ajax-asynchronous-javascript-and-xml&#34;&gt;AJAX (Asynchronous JavaScript and XML)&lt;/h2&gt;
@@ -196,10 +196,10 @@
     
     <item>
       <title>Giới thiệu về Java</title>
-      <link>https://thieu.io/posts/review_java/</link>
+      <link>http://localhost:1313/posts/review_java/</link>
       <pubDate>Sat, 28 Dec 2024 22:03:35 +0700</pubDate>
       
-      <guid>https://thieu.io/posts/review_java/</guid>
+      <guid>http://localhost:1313/posts/review_java/</guid>
       
       <description>&lt;h1 id=&#34;giới-thiệu-về-java&#34;&gt;Giới thiệu về Java&lt;/h1&gt;
 &lt;p&gt;Java là một ngôn ngữ lập trình hướng đối tượng, được phát triển bởi Sun Microsystems (hiện nay thuộc sở hữu của Oracle Corporation) vào giữa những năm 1990. Java được thiết kế với mục tiêu &amp;ldquo;viết một lần, chạy mọi nơi&amp;rdquo; (WORA), có nghĩa là mã nguồn Java có thể chạy trên bất kỳ nền tảng nào có cài đặt Java Virtual Machine (JVM).&lt;/p&gt;
@@ -212,10 +212,10 @@
     
     <item>
       <title>Giới thiệu về JavaScript</title>
-      <link>https://thieu.io/posts/review_js/</link>
+      <link>http://localhost:1313/posts/review_js/</link>
       <pubDate>Sat, 28 Dec 2024 22:03:35 +0700</pubDate>
       
-      <guid>https://thieu.io/posts/review_js/</guid>
+      <guid>http://localhost:1313/posts/review_js/</guid>
       
       <description>&lt;h1 id=&#34;giới-thiệu-về-javascript&#34;&gt;Giới thiệu về JavaScript&lt;/h1&gt;
 &lt;p&gt;JavaScript là một ngôn ngữ lập trình phổ biến được sử dụng để tạo ra các trang web tương tác và sinh động. Nó cho phép lập trình viên xử lý các sự kiện của người dùng và tích hợp dễ dàng vào HTML để nâng cao trải nghiệm người dùng trên web.&lt;/p&gt;
@@ -236,10 +236,10 @@
     
     <item>
       <title>Java Classes</title>
-      <link>https://thieu.io/posts/class_java/</link>
+      <link>http://localhost:1313/posts/class_java/</link>
       <pubDate>Sat, 28 Dec 2024 22:03:35 +0700</pubDate>
       
-      <guid>https://thieu.io/posts/class_java/</guid>
+      <guid>http://localhost:1313/posts/class_java/</guid>
       
       <description>&lt;h1 id=&#34;java-classes&#34;&gt;Java Classes&lt;/h1&gt;
 &lt;p&gt;Trong Java, lớp (class) là bản thiết kế để tạo ra các đối tượng, bao gồm dữ liệu và hành vi. Chúng định nghĩa các thuộc tính (properties) và phương thức (functions) mà các đối tượng được tạo ra từ lớp có thể sử dụng.&lt;/p&gt;
@@ -346,10 +346,10 @@
     
     <item>
       <title>Java OOP</title>
-      <link>https://thieu.io/posts/oop_java/</link>
+      <link>http://localhost:1313/posts/oop_java/</link>
       <pubDate>Sat, 28 Dec 2024 22:03:35 +0700</pubDate>
       
-      <guid>https://thieu.io/posts/oop_java/</guid>
+      <guid>http://localhost:1313/posts/oop_java/</guid>
       
       <description>&lt;h1 id=&#34;java-oop&#34;&gt;Java OOP&lt;/h1&gt;
 &lt;p&gt;Java là một ngôn ngữ lập trình hướng đối tượng (OOP - Object-Oriented Programming), và nó hỗ trợ các nguyên tắc cơ bản của OOP. Dưới đây là một cái nhìn tổng quan về các khái niệm OOP trong Java:&lt;/p&gt;
@@ -364,10 +364,10 @@
     
     <item>
       <title>So sánh giữa JavaScript và Java</title>
-      <link>https://thieu.io/posts/sosanh/</link>
+      <link>http://localhost:1313/posts/sosanh/</link>
       <pubDate>Sat, 28 Dec 2024 22:03:35 +0700</pubDate>
       
-      <guid>https://thieu.io/posts/sosanh/</guid>
+      <guid>http://localhost:1313/posts/sosanh/</guid>
       
       <description>&lt;h1 id=&#34;so-sánh-giữa-javascript-và-java&#34;&gt;So sánh giữa JavaScript và Java&lt;/h1&gt;
 &lt;p&gt;JavaScript (JS) và Java là hai ngôn ngữ lập trình phổ biến, nhưng chúng có nhiều điểm khác biệt quan trọng. Dưới đây là một số so sánh giữa chúng:&lt;/p&gt;

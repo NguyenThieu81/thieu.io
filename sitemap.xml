@@ -2,43 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://thieu.io/posts/thuvien_js/</loc>
+    <loc>http://localhost:1313/posts/thuvien_js/</loc>
     <lastmod>2024-12-28T22:03:35+07:00</lastmod>
   </url><url>
-    <loc>https://thieu.io/posts/thuvien_java/</loc>
+    <loc>http://localhost:1313/posts/thuvien_java/</loc>
     <lastmod>2024-12-28T22:03:35+07:00</lastmod>
   </url><url>
-    <loc>https://thieu.io/posts/dom/</loc>
+    <loc>http://localhost:1313/posts/dom/</loc>
     <lastmod>2024-12-28T22:03:35+07:00</lastmod>
   </url><url>
-    <loc>https://thieu.io/posts/ajax_jquery_json/</loc>
+    <loc>http://localhost:1313/posts/ajax_jquery_json/</loc>
     <lastmod>2024-12-28T22:03:35+07:00</lastmod>
   </url><url>
-    <loc>https://thieu.io/posts/review_java/</loc>
+    <loc>http://localhost:1313/posts/review_java/</loc>
     <lastmod>2024-12-28T22:03:35+07:00</lastmod>
   </url><url>
-    <loc>https://thieu.io/posts/review_js/</loc>
+    <loc>http://localhost:1313/posts/review_js/</loc>
     <lastmod>2024-12-28T22:03:35+07:00</lastmod>
   </url><url>
-    <loc>https://thieu.io/posts/class_java/</loc>
+    <loc>http://localhost:1313/posts/class_java/</loc>
     <lastmod>2024-12-28T22:03:35+07:00</lastmod>
   </url><url>
-    <loc>https://thieu.io/posts/oop_java/</loc>
+    <loc>http://localhost:1313/posts/oop_java/</loc>
     <lastmod>2024-12-28T22:03:35+07:00</lastmod>
   </url><url>
-    <loc>https://thieu.io/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-12-28T22:03:35+07:00</lastmod>
   </url><url>
-    <loc>https://thieu.io/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2024-12-28T22:03:35+07:00</lastmod>
   </url><url>
-    <loc>https://thieu.io/posts/sosanh/</loc>
+    <loc>http://localhost:1313/posts/sosanh/</loc>
     <lastmod>2024-12-28T22:03:35+07:00</lastmod>
   </url><url>
-    <loc>https://thieu.io/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>https://thieu.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://thieu.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
