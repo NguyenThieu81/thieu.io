@@ -1,0 +1,10 @@
+
+.avatar {
+    width: 150px; /* Đặt chiều rộng của hình ảnh */
+    height: 150px; /* Đặt chiều cao của hình ảnh */
+    border-radius: 50%; /* Làm tròn các góc để tạo hình tròn */
+    display: block; /* Đặt hiển thị dạng khối */
+    margin: 0 auto; /* Căn giữa hình ảnh */
+    object-fit: cover; /* Đảm bảo hình ảnh không bị méo */
+    border: 2px solid #ccc; /* Thêm viền cho hình ảnh */
+}

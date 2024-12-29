@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en-us"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title itemprop="name">Java Classes | My New Hugo Site</title>
+<meta property="og:title" content="Java Classes | My New Hugo Site" />
+<meta name="twitter:title" content="Java Classes | My New Hugo Site" />
+<meta itemprop="name" content="Java Classes | My New Hugo Site" />
+<meta name="application-name" content="Java Classes | My New Hugo Site" />
+<meta property="og:site_name" content="" />
+
+<meta name="description" content="">
+<meta itemprop="description" content="" />
+<meta property="og:description" content="" />
+<meta name="twitter:description" content="" />
+
+<meta property="og:locale" content="en-us" />
+<meta name="language" content="en-us" />
+
+  <link rel="alternate" hreflang="en" href="http://localhost:1313/posts/class_java/" title="" />
+
+
+
+
+
+    
+    
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:article:published_time" content=2024-12-28T22:03:35&#43;0700 />
+    <meta property="article:published_time" content=2024-12-28T22:03:35&#43;0700 />
+    <meta property="og:url" content="http://localhost:1313/posts/class_java/" />
+
+    
+
+    
+
+    <script defer type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "headline": "Java Classes",
+        "author": {
+        "@type": "Person",
+        "name": ""
+        },
+        "datePublished": "2024-12-28",
+        "description": "",
+        "wordCount":  618 ,
+        "mainEntityOfPage": "True",
+        "dateModified": "2024-12-28",
+        "image": {
+        "@type": "imageObject",
+        "url": ""
+        },
+        "publisher": {
+        "@type": "Organization",
+        "name": "My New Hugo Site"
+        }
+    }
+    </script>
+
+
+<meta name="generator" content="Hugo 0.140.1">
+
+  
+  <meta property="og:url" content="http://localhost:1313/posts/class_java/">
+  <meta property="og:site_name" content="My New Hugo Site">
+  <meta property="og:title" content="Java Classes">
+  <meta property="og:description" content="Java Classes Trong Java, lớp (class) là bản thiết kế để tạo ra các đối tượng, bao gồm dữ liệu và hành vi. Chúng định nghĩa các thuộc tính (properties) và phương thức (functions) mà các đối tượng được tạo ra từ lớp có thể sử dụng.
+Định Nghĩa Lớp Một lớp được định nghĩa bằng từ khóa class theo sau là tên lớp. Nó có thể chứa: Biến thành viên: Các thuộc tính giữ trạng thái của một đối tượng. Phương thức: Các hàm định nghĩa hành vi của các đối tượng. Constructor: Các phương thức đặc biệt được sử dụng để khởi tạo các đối tượng. Tạo Đối Tượng Đối tượng là các thể hiện của lớp được tạo ra bằng cách sử dụng từ khóa new. Ví dụ: MyClass obj = new MyClass(); Truy Cập Các Thành Viên Sử dụng toán tử dot để truy cập các biến và phương thức của một đối tượng. Ví dụ: obj.methodName(); int value = obj.variableName; Lớp Lồng Nhau Java cho phép các lớp được lồng bên trong các lớp khác. Các loại lớp lồng bao gồm: Static Nested Classes: Có thể truy cập các thành viên tĩnh của lớp bên ngoài. Inner Classes: Có thể truy cập cả các thành viên tĩnh và thành viên thể hiện của lớp bên ngoài. Anonymous Inner Classes: Được định nghĩa mà không có tên lớp và được sử dụng để khởi tạo các lớp ngay lập tức. Local Classes: Được định nghĩa trong một phương thức và có thể truy cập các biến cục bộ. Liệt Kê Liệt kê (enums) là một loại lớp đặc biệt đại diện cho một tập hợp các hằng số cố định. Ví dụ: enum Day { SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY } Kiểm Soát Truy Cập Java cung cấp các bộ điều chỉnh truy cập để kiểm soát khả năng hiển thị của các lớp, phương thức và biến: public: Có thể truy cập từ bất kỳ lớp nào khác. private: Chỉ có thể truy cập trong cùng một lớp. protected: Có thể truy cập trong cùng một gói và các lớp con. default: Chỉ có thể truy cập trong cùng một gói. Xử Lý Ngoại Lệ Java cung cấp một cơ chế mạnh mẽ để xử lý ngoại lệ bằng cách sử dụng các khối try, catch, và finally. Ngoại lệ là các sự kiện làm gián đoạn dòng chảy bình thường của chương trình. Ví dụ: try { int division = 10 / 0; } catch (ArithmeticException e) { System.out.println(&#34;Cannot divide by zero.&#34;); } finally { System.out.println(&#34;This block always executes.&#34;); } Java Collections Framework Java Collections Framework cung cấp một tập hợp các lớp và giao diện để lưu trữ và thao tác các nhóm dữ liệu như một đơn vị duy nhất. Các giao diện chính bao gồm: Collection: Giao diện gốc cho hệ thống phân cấp collection. List: Một tập hợp có thứ tự (còn được gọi là chuỗi) có thể chứa các phần tử trùng lặp. Set: Một tập hợp không thể chứa các phần tử trùng lặp. Map: Một đối tượng ánh xạ các khóa đến các giá trị, trong đó mỗi khóa là duy nhất. Các Lớp Thường Dùng ArrayList: Một triển khai mảng có thể thay đổi kích thước của giao diện List. List&lt;String&gt; list = new ArrayList&lt;&gt;(); list.add(&#34;Apple&#34;); list.add(&#34;Banana&#34;); Lặp Qua Các Collection Các collection có thể được lặp qua bằng: Vòng lặp For-each:">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-12-28T22:03:35+07:00">
+    <meta property="article:modified_time" content="2024-12-28T22:03:35+07:00">
+
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Java Classes">
+  <meta name="twitter:description" content="Java Classes Trong Java, lớp (class) là bản thiết kế để tạo ra các đối tượng, bao gồm dữ liệu và hành vi. Chúng định nghĩa các thuộc tính (properties) và phương thức (functions) mà các đối tượng được tạo ra từ lớp có thể sử dụng.
+Định Nghĩa Lớp Một lớp được định nghĩa bằng từ khóa class theo sau là tên lớp. Nó có thể chứa: Biến thành viên: Các thuộc tính giữ trạng thái của một đối tượng. Phương thức: Các hàm định nghĩa hành vi của các đối tượng. Constructor: Các phương thức đặc biệt được sử dụng để khởi tạo các đối tượng. Tạo Đối Tượng Đối tượng là các thể hiện của lớp được tạo ra bằng cách sử dụng từ khóa new. Ví dụ: MyClass obj = new MyClass(); Truy Cập Các Thành Viên Sử dụng toán tử dot để truy cập các biến và phương thức của một đối tượng. Ví dụ: obj.methodName(); int value = obj.variableName; Lớp Lồng Nhau Java cho phép các lớp được lồng bên trong các lớp khác. Các loại lớp lồng bao gồm: Static Nested Classes: Có thể truy cập các thành viên tĩnh của lớp bên ngoài. Inner Classes: Có thể truy cập cả các thành viên tĩnh và thành viên thể hiện của lớp bên ngoài. Anonymous Inner Classes: Được định nghĩa mà không có tên lớp và được sử dụng để khởi tạo các lớp ngay lập tức. Local Classes: Được định nghĩa trong một phương thức và có thể truy cập các biến cục bộ. Liệt Kê Liệt kê (enums) là một loại lớp đặc biệt đại diện cho một tập hợp các hằng số cố định. Ví dụ: enum Day { SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY } Kiểm Soát Truy Cập Java cung cấp các bộ điều chỉnh truy cập để kiểm soát khả năng hiển thị của các lớp, phương thức và biến: public: Có thể truy cập từ bất kỳ lớp nào khác. private: Chỉ có thể truy cập trong cùng một lớp. protected: Có thể truy cập trong cùng một gói và các lớp con. default: Chỉ có thể truy cập trong cùng một gói. Xử Lý Ngoại Lệ Java cung cấp một cơ chế mạnh mẽ để xử lý ngoại lệ bằng cách sử dụng các khối try, catch, và finally. Ngoại lệ là các sự kiện làm gián đoạn dòng chảy bình thường của chương trình. Ví dụ: try { int division = 10 / 0; } catch (ArithmeticException e) { System.out.println(&#34;Cannot divide by zero.&#34;); } finally { System.out.println(&#34;This block always executes.&#34;); } Java Collections Framework Java Collections Framework cung cấp một tập hợp các lớp và giao diện để lưu trữ và thao tác các nhóm dữ liệu như một đơn vị duy nhất. Các giao diện chính bao gồm: Collection: Giao diện gốc cho hệ thống phân cấp collection. List: Một tập hợp có thứ tự (còn được gọi là chuỗi) có thể chứa các phần tử trùng lặp. Set: Một tập hợp không thể chứa các phần tử trùng lặp. Map: Một đối tượng ánh xạ các khóa đến các giá trị, trong đó mỗi khóa là duy nhất. Các Lớp Thường Dùng ArrayList: Một triển khai mảng có thể thay đổi kích thước của giao diện List. List&lt;String&gt; list = new ArrayList&lt;&gt;(); list.add(&#34;Apple&#34;); list.add(&#34;Banana&#34;); Lặp Qua Các Collection Các collection có thể được lặp qua bằng: Vòng lặp For-each:">
+
+
+  
+
+  <link rel="canonical" href="http://localhost:1313/posts/class_java/">
+  <link href="/style.min.2d921c18cf1ec555ffc03d59a8adc211c402c68c930c27d6a0c306ab175a8d09.css" rel="stylesheet">
+  <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+  <link rel="mask-icon" href="/icons/safari-pinned-tab.svg">
+  <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+
+<link rel="manifest" href="http://localhost:1313/site.webmanifest">
+
+<meta name="msapplication-config" content="/browserconfig.xml">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#434648">
+
+  
+  <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg">
+
+  
+</head>
+<body data-theme = "" class="notransition">
+
+<script src="/js/theme.js"></script>
+
+<div class="navbar" role="navigation">
+    <nav class="menu" aria-label="Main Navigation">
+        <a href="http://localhost:1313/" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" 
+viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+stroke-linejoin="round" class="feather feather-home">
+<title></title>
+<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+<polyline points="9 22 9 12 15 12 15 22"></polyline>
+</svg>
+        </a>
+        <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+        <label for="menu-trigger">
+            <span class="menu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" stroke="currentColor" fill="none" viewBox="0 0 14 14"><title>Menu</title><path stroke-linecap="round" stroke-linejoin="round" d="M10.595 7L3.40726 7"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 3.51488L3.49301 3.51488"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 10.4851H3.49301"></path><path stroke-linecap="round" stroke-linejoin="round" d="M0.5 12.5V1.5C0.5 0.947715 0.947715 0.5 1.5 0.5H12.5C13.0523 0.5 13.5 0.947715 13.5 1.5V12.5C13.5 13.0523 13.0523 13.5 12.5 13.5H1.5C0.947715 13.5 0.5 13.0523 0.5 12.5Z"></path></svg>
+            </span>
+        </label>
+
+        <div class="trigger">
+            <ul class="trigger-container">
+                
+                
+                <li>
+                    <a class="menu-link " href="/about/">
+                        About
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/posts/">
+                        Blog
+                    </a>
+                    
+                </li>
+                
+                <li class="menu-separator">
+                    <span>|</span>
+                </li>
+                
+                
+            </ul>
+            <a id="mode" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-sunny" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>LIGHT</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-moon" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>DARK</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+            </a>
+        </div>
+    </nav>
+</div>
+
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">Java Classes</h1>
+                
+                
+                
+                <div class="post-meta">
+                    <time datetime="2024-12-28T22:03:35&#43;07:00" itemprop="datePublished"> Dec 28, 2024 </time>
+                </div>
+                
+            </header>
+            
+            <div class="page-content">
+                <h1 id="java-classes">Java Classes</h1>
+<p>Trong Java, lớp (class) là bản thiết kế để tạo ra các đối tượng, bao gồm dữ liệu và hành vi. Chúng định nghĩa các thuộc tính (properties) và phương thức (functions) mà các đối tượng được tạo ra từ lớp có thể sử dụng.</p>
+<h2 id="định-nghĩa-lớp">Định Nghĩa Lớp</h2>
+<ul>
+<li>Một lớp được định nghĩa bằng từ khóa <code>class</code> theo sau là tên lớp.</li>
+<li>Nó có thể chứa:
+<ul>
+<li><strong>Biến thành viên</strong>: Các thuộc tính giữ trạng thái của một đối tượng.</li>
+<li><strong>Phương thức</strong>: Các hàm định nghĩa hành vi của các đối tượng.</li>
+<li><strong>Constructor</strong>: Các phương thức đặc biệt được sử dụng để khởi tạo các đối tượng.</li>
+</ul>
+</li>
+</ul>
+<h2 id="tạo-đối-tượng">Tạo Đối Tượng</h2>
+<ul>
+<li>Đối tượng là các thể hiện của lớp được tạo ra bằng cách sử dụng từ khóa <code>new</code>.</li>
+<li>Ví dụ:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>MyClass obj <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> MyClass();
+</span></span></code></pre></div></li>
+</ul>
+<h2 id="truy-cập-các-thành-viên">Truy Cập Các Thành Viên</h2>
+<ul>
+<li>Sử dụng toán tử <code>dot</code> để truy cập các biến và phương thức của một đối tượng.</li>
+<li>Ví dụ:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>obj.<span style="color:#a6e22e">methodName</span>();
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> value <span style="color:#f92672">=</span> obj.<span style="color:#a6e22e">variableName</span>;
+</span></span></code></pre></div></li>
+</ul>
+<h2 id="lớp-lồng-nhau">Lớp Lồng Nhau</h2>
+<ul>
+<li>Java cho phép các lớp được lồng bên trong các lớp khác.</li>
+<li>Các loại lớp lồng bao gồm:
+<ul>
+<li><strong>Static Nested Classes</strong>: Có thể truy cập các thành viên tĩnh của lớp bên ngoài.</li>
+<li><strong>Inner Classes</strong>: Có thể truy cập cả các thành viên tĩnh và thành viên thể hiện của lớp bên ngoài.</li>
+<li><strong>Anonymous Inner Classes</strong>: Được định nghĩa mà không có tên lớp và được sử dụng để khởi tạo các lớp ngay lập tức.</li>
+<li><strong>Local Classes</strong>: Được định nghĩa trong một phương thức và có thể truy cập các biến cục bộ.</li>
+</ul>
+</li>
+</ul>
+<h2 id="liệt-kê">Liệt Kê</h2>
+<ul>
+<li>Liệt kê (enums) là một loại lớp đặc biệt đại diện cho một tập hợp các hằng số cố định.</li>
+<li>Ví dụ:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">enum</span> Day {
+</span></span><span style="display:flex;"><span>    SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div></li>
+</ul>
+<h2 id="kiểm-soát-truy-cập">Kiểm Soát Truy Cập</h2>
+<ul>
+<li>Java cung cấp các bộ điều chỉnh truy cập để kiểm soát khả năng hiển thị của các lớp, phương thức và biến:
+<ul>
+<li><strong>public</strong>: Có thể truy cập từ bất kỳ lớp nào khác.</li>
+<li><strong>private</strong>: Chỉ có thể truy cập trong cùng một lớp.</li>
+<li><strong>protected</strong>: Có thể truy cập trong cùng một gói và các lớp con.</li>
+<li><strong>default</strong>: Chỉ có thể truy cập trong cùng một gói.</li>
+</ul>
+</li>
+</ul>
+<h2 id="xử-lý-ngoại-lệ">Xử Lý Ngoại Lệ</h2>
+<ul>
+<li>Java cung cấp một cơ chế mạnh mẽ để xử lý ngoại lệ bằng cách sử dụng các khối <code>try</code>, <code>catch</code>, và <code>finally</code>.</li>
+<li>Ngoại lệ là các sự kiện làm gián đoạn dòng chảy bình thường của chương trình.</li>
+<li>Ví dụ:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> division <span style="color:#f92672">=</span> 10 <span style="color:#f92672">/</span> 0;
+</span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">catch</span> (ArithmeticException e) {
+</span></span><span style="display:flex;"><span>    System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Cannot divide by zero.&#34;</span>);
+</span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">finally</span> {
+</span></span><span style="display:flex;"><span>    System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;This block always executes.&#34;</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div></li>
+</ul>
+<h2 id="java-collections-framework">Java Collections Framework</h2>
+<ul>
+<li>Java Collections Framework cung cấp một tập hợp các lớp và giao diện để lưu trữ và thao tác các nhóm dữ liệu như một đơn vị duy nhất.</li>
+<li>Các giao diện chính bao gồm:
+<ul>
+<li><strong>Collection</strong>: Giao diện gốc cho hệ thống phân cấp collection.</li>
+<li><strong>List</strong>: Một tập hợp có thứ tự (còn được gọi là chuỗi) có thể chứa các phần tử trùng lặp.</li>
+<li><strong>Set</strong>: Một tập hợp không thể chứa các phần tử trùng lặp.</li>
+<li><strong>Map</strong>: Một đối tượng ánh xạ các khóa đến các giá trị, trong đó mỗi khóa là duy nhất.</li>
+</ul>
+</li>
+</ul>
+<h2 id="các-lớp-thường-dùng">Các Lớp Thường Dùng</h2>
+<ul>
+<li><strong>ArrayList</strong>: Một triển khai mảng có thể thay đổi kích thước của giao diện List.
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>List<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;</span> list <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ArrayList<span style="color:#f92672">&lt;&gt;</span>();
+</span></span><span style="display:flex;"><span>list.<span style="color:#a6e22e">add</span>(<span style="color:#e6db74">&#34;Apple&#34;</span>);
+</span></span><span style="display:flex;"><span>list.<span style="color:#a6e22e">add</span>(<span style="color:#e6db74">&#34;Banana&#34;</span>);
+</span></span></code></pre></div></li>
+</ul>
+<h2 id="lặp-qua-các-collection">Lặp Qua Các Collection</h2>
+<ul>
+<li>Các collection có thể được lặp qua bằng:
+<ul>
+<li>
+<p><strong>Vòng lặp For-each</strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">for</span> (String fruit : list) {
+</span></span><span style="display:flex;"><span>    System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(fruit);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div></li>
+<li>
+<p><strong>Iterator</strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>Iterator<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;</span> iterator <span style="color:#f92672">=</span> set.<span style="color:#a6e22e">iterator</span>();
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> (iterator.<span style="color:#a6e22e">hasNext</span>()) {
+</span></span><span style="display:flex;"><span>    System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(iterator.<span style="color:#a6e22e">next</span>());
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div></li>
+</ul>
+</li>
+</ul>
+<h2 id="sắp-xếp-các-collection">Sắp Xếp Các Collection</h2>
+<ul>
+<li>Các collection có thể được sắp xếp bằng cách sử dụng phương thức <code>Collections.sort()</code> cho danh sách.
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>Collections.<span style="color:#a6e22e">sort</span>(list);
+</span></span></code></pre></div></li>
+</ul>
+
+            </div>
+        </article></main>
+</div>
+<footer class="footer">
+    <span class="footer_item"> </span>
+    &nbsp;
+
+    <div class="footer_social-icons">
+<a href="https://github.com/NguyenThieu81" target="_blank" rel="noopener noreferrer me"
+    title="Github">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+</a>
+<a href="https://www.facebook.com/nguyenvanthieu81" target="_blank" rel="noopener noreferrer me"
+    title="Facebook">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+</svg>
+</a>
+</div>
+    <small class="footer_copyright">
+        © 2024 Nguyễn Văn Thiều.
+        
+    </small>
+</footer><a href="#" title="" id="totop">
+    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" stroke="currentColor" viewBox="0 96 960 960">
+    <path d="M283 704.739 234.261 656 480 410.261 725.739 656 677 704.739l-197-197-197 197Z"/>
+</svg>
+
+</a>
+
+
+    
+
+
+
+
+
+
+    
+    <script async src="http://localhost:1313/js/main.js" ></script>
+
+    
+
+</body>
+</html>
